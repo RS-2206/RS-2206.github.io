@@ -13,6 +13,10 @@ header.navbar{
 	top:0;
 	z-index:999;
 }
+header.navbar nav{
+	margin:0 auto;
+	padding:0 20px;
+}
 header.navbar nav ul{
 	list-style-position: outside;
 	margin-left: 1em;
@@ -20,9 +24,6 @@ header.navbar nav ul{
 	margin:0;
 	padding:0;
 
-}
-.nav-container{
-	margin:0 auto;
 }
 
 header.navbar nav ul li{
