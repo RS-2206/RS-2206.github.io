@@ -17,3 +17,24 @@ header.navbar{
 header.navbar nav ul li{
 	display:inline;
 }
+
+header.navbar nav ul li a{
+	text-decoration:none;
+	display:inline-block;
+	line-height:50px;
+	height:50px;
+	font-size:16px;
+	color:#EEE;
+	padding:0 8px;
+}
+
+header.navbar nav ul li a.active{
+	color:#FFF;
+	border-bottom:3px solid #FBE178;
+	background:#333;
+}
+
+header.navbar nav ul li a:hover{
+	background:#FBE178;
+	color:#353331;
+}
