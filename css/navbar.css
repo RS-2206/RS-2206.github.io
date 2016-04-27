@@ -12,6 +12,8 @@ header.navbar nav ul{
 	list-style-position: outside;
 	margin-left: 1em;
 	padding-left: 1em;
+	margin:0;
+	padding:0;
 
 }
 .nav-container{
