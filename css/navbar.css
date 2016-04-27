@@ -8,7 +8,12 @@ header.navbar{
 	top:0;
 	z-index:999;
 }
+header.navbar nav ul{
+	list-style-position: outside;
+	margin-left: 1em;
+	padding-left: 1em;
 
+}
 .nav-container{
 	margin:0 auto;
 }
