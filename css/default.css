@@ -1,0 +1,16 @@
+body{
+	margin:0px;
+	padding:0px;
+	background-image:url('images/main_bg.jpg');/* 背景图垂直、水平均居中 */
+	background-position:center center; /* 背景图不平铺 */
+	background-repeat:no-repeat;
+	background-attachment:fixed;/* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+	background-size:cover;/* 让背景图基于容器大小伸缩 */
+	background-color:#4B837E;/* 设置背景颜色，背景图加载过程中会显示背景色 */
+
+	-moz-user-select:none;/*火狐*/
+	-webkit-user-select:none;/*webkit浏览器*/
+	-ms-user-select:none;/*IE10*/
+	-khtml-user-select:none;/*早期浏览器*/
+	user-select:none;		/*文本不可选*/
+}
