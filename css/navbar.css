@@ -14,8 +14,7 @@ header.navbar{
 	z-index:999;
 }
 header.navbar nav{
-	width:auto;
-	height:50px;
+	background:red;
 	margin:0 auto;
 	padding:0 20px;
 }
