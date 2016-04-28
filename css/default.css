@@ -1,7 +1,7 @@
 body{
 	margin:0px;
 	padding:0px;
-	background-image:url('images/main_bg.jpg');/* 背景图垂直、水平均居中 */
+	background-image:url('../images/main_bg.jpg');/* 背景图垂直、水平均居中 */
 	background-position:center center; /* 背景图不平铺 */
 	background-repeat:no-repeat;
 	background-attachment:fixed;/* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
